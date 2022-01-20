@@ -901,6 +901,18 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#Cierre {
+    margin: 0;
+    background-color: #212529;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: .95cm;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
 #footer {
   padding: 15px;
   color: #f4f6fd;
