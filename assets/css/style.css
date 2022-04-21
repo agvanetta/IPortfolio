@@ -26,7 +26,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+/*--------------------------------------------------------------
+# light
+--------------------------------------------------------------*/
+ 
+.oscuro{ 
+  background-color: #00000049;
+  color: #292828; 
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -118,6 +125,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 300px;
 }
 
+#lightButton{
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border-color: rgba(255, 255, 0, 0.377);
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -127,6 +150,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

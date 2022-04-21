@@ -253,4 +253,23 @@
     })
   });
 
+ /**
+   * Light
+   */
+  
+
+//   function cambiarModo() { 
+//     var cuerpoweb = document.body; 
+//     cuerpoweb.classList.toggle("oscuro"); 
+// }
+
 })()
+
+section = document.querySelector("section");
+body = document.querySelector("body");
+  btn = document.querySelector("button");
+  btn.addEventListener("click", function () {
+    console.log("changed")
+    body.classList.toggle("oscuro");
+    section.classList.toggle("oscuro");
+  })
